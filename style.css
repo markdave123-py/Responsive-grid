@@ -1,0 +1,179 @@
+body{
+    margin: 0 auto;
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    
+}
+span{
+    position: absolute;
+    bottom: -15px;
+}
+.daniel{
+    background-color: hsl(263, 55%, 52%);
+    margin-right: 20px;
+}
+.daniel, .jonathan, .jean, .kira, .partick{
+    padding: 20px 25px 0px 25px;
+    border-radius: 7px;
+}
+.p{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.img1{
+    width: 35px;
+    border-radius: 40px;
+}
+.h2 p{
+    color: hsla(0, 0%, 81%, 0.5);
+}
+h4{
+    color: hsl(0, 0%, 81%);
+}
+.img2{
+    width: 85px;
+    padding-left: 250px;
+}
+.quotation{
+    padding-bottom: 20px;
+}
+.down{
+    padding-top: 40px;
+}
+
+.imgh2{
+    display: flex;
+}
+.jonathan{
+    background-color: hsl(217, 19%, 35%);
+}
+.partick{
+    background-color: hsl(219, 29%, 14%);
+    margin-left: 20px;
+    
+}
+.house{
+    position: relative;
+    bottom: 20px;
+}
+.house2{
+    position: relative;
+    bottom: 16px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+}
+.bottom{
+    display: flex;
+    margin-top: 20px;
+}
+.ps{
+   color: hsla(0, 0%, 81%, 0.7); 
+}
+.pk{
+    padding-top: -65px;
+}
+.h2{
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+.container2{
+    margin-left: 30px;
+}
+.h2 p{
+    position: relative;
+    bottom: 17px;
+    font-size: 11px;
+}
+.pk1{
+    padding-bottom: 20px;
+}
+
+.pb, .ps{
+    position: relative;
+    bottom: 15%;
+}
+.kira{
+    background-color: hsla(0, 0%, 100%, 0.562);
+    
+}
+.jean{
+    background-color: hsl(0, 0%, 100%);
+}
+.p1{
+    color: hsl(0, 0%, 100%); 
+}
+.p2{
+    color: hsl(217, 19%, 35%);
+}
+.container{
+    display: grid;
+    grid-template-columns: 74.2% 25.8%;
+    margin: 110px;
+    margin-left: 170px;
+    background-color: hsl(210, 46%, 95%);
+    width: 76.725%;
+}
+@media (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 70px 20px 70px;
+        width: 60%;
+        font-size: 13px;
+
+    }
+    .daniel{
+        margin-right: 0;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .top, .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .jean{
+        margin-top: -10px;
+    }  
+    
+    .jonathan,.partick,.kira{
+        margin-top: 10px;
+    }
+    span{
+        position: absolute;
+        top: -75px;
+    }
+
+    .img2{
+        width: 70px;
+        position: relative;
+        left: 10px;
+        top: -20px;
+        padding-left: 0;
+    }
+    .imgh2{
+        padding-bottom: 20px;
+    }
+    .pk1{
+        padding-bottom: 0;
+    }
+    .partick,.container2{
+        margin-left: 0;
+    }
+    .container2{
+        width: 100%;
+    }
+    .house, .house2{
+        position: relative;
+        bottom: 40px;
+    }
+    
+}
